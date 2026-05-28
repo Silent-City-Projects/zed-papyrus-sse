@@ -1,0 +1,10 @@
+id = "papyrus-sse"
+name = "Papyrus SSE"
+version = "0.0.2"
+schema_version = 1
+authors = ["Hexanode DOGGO323@protonmail.com"]
+description = "Language support for Papyrus used in Skyrim Special Edition."
+repository = "https://github.com/Silent-City-Projects/zed-papyrus-sse"
+[grammars.papyrus_sse]
+repository = "https://github.com/Silent-City-Projects/tree-sitter-papyrus-sse"
+rev = "15bdacfe89ffc8a5c8bd11c79db315819df57a20"

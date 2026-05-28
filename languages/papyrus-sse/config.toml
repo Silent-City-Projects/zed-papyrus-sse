@@ -1,0 +1,4 @@
+name = "Papyrus"
+grammar = "papyrus_sse"
+path_suffixes = ["psc"]
+line_comments = [";"]
