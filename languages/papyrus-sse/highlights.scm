@@ -4,6 +4,8 @@
 (property) @keyword
 (property (identifier) @variable)
 
+(propertyFull) @keyword
+(property (identifier) @variable)
 
 
 (event) @keyword
@@ -69,8 +71,7 @@
 (binaryExpression operator: _ @operator)
 (binaryExpression (identifier) @variable)
 
-(unaryExpression "-" @operator)
-(unaryExpression "!" @operator)
+(unaryExpression operator: _ @operator)
 (unaryExpression (identifier) @variable)
 
 (castExpression "as" @operator)

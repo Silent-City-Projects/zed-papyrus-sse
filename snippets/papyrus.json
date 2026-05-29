@@ -1,0 +1,42 @@
+{
+  "Event Declaration": {
+    "prefix": "event",
+    "body": ["Event ${1:name}(${2:type arg})", "\t$3", "EndEvent"],
+    "description": "Create a new event"
+  },
+  "Function Declaration": {
+    "prefix": "function",
+    "body": ["Function ${1:name}(${2:type arg})", "\t$3", "EndFunction"],
+    "description": "Create a new function"
+  },
+  "Property Declaration": {
+    "prefix": "property",
+    "body": ["Property ${1:name} Auto"],
+    "description": "Create a new property"
+  },
+  "State Declaration": {
+    "prefix": "state",
+    "body": ["State ${1:name}", "\t$2", "EndState"],
+    "description": "Create a new state"
+  },
+  "If Statement": {
+    "prefix": "if",
+    "body": ["If ${1:boolean}", "\t$2", "EndIf"],
+    "description": "Create a new if statement"
+  },
+  "Else-If Branch": {
+    "prefix": "elseif",
+    "body": ["ElseIf ${1:boolean}", "\t$2"],
+    "description": "Add an else-if branch"
+  },
+  "Else Branch": {
+    "prefix": "else",
+    "body": ["Else", "\t$1"],
+    "description": "Add an else branch"
+  },
+  "While Loop": {
+    "prefix": "while",
+    "body": ["While ${1:boolean}", "\t$2", "EndWhile"],
+    "description": "Create a while loop"
+  }
+}

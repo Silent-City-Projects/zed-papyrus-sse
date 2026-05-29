@@ -5,6 +5,7 @@ schema_version = 1
 authors = ["Hexanode DOGGO323@protonmail.com"]
 description = "Language support for Papyrus used in Skyrim Special Edition."
 repository = "https://github.com/Silent-City-Projects/zed-papyrus-sse"
+snippets = ["./snippets/papyrus.json"]
 [grammars.papyrus_sse]
 repository = "https://github.com/Silent-City-Projects/tree-sitter-papyrus-sse"
-rev = "15bdacfe89ffc8a5c8bd11c79db315819df57a20"
+rev = "2a5eebb4776cee94bebc8dc36ae4db021408265e"
