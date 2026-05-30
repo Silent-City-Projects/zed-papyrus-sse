@@ -1,8 +1,8 @@
 id = "papyrus-sse"
 name = "Papyrus SSE"
-version = "0.0.2"
+version = "0.0.3"
 schema_version = 1
-authors = ["Hexanode DOGGO323@protonmail.com"]
+authors = ["Hexanode <DOGGO323@protonmail.com>"]
 description = "Language support for Papyrus used in Skyrim Special Edition."
 repository = "https://github.com/Silent-City-Projects/zed-papyrus-sse"
 snippets = ["./snippets/papyrus.json"]
